@@ -64,6 +64,15 @@ function calculateAdultYears(userAge) {
 
 adultYears = calculateAdultYears(age);
 
+let person = {
+    name: "Jed",
+    greet() {
+        alert(`Hello ${person.name}`);
+    }
+}
+
+person.greet();
+
 // -------------------------------------------------------------------------
 // Self code exercise section.
 alert(`Hi my name is ${userName}`);
