@@ -12,12 +12,18 @@ console.log(10 % 4); //modulus / modulo operator : - this will always give us th
 // Math Rules.
 
 // Incrementation
-let result = (10 + 3 - 5) * 10;
-result++; //result = result + 1;
-result--; //result = result - 1;
+// let result = (10 + 3 - 5) * 10;
+// result++; //result = result + 1;
+
+// Decrementation
+// result--; //result = result - 1;
 
 
-result += 5; // result = result + 5
-result -= 5; // result = result - 5
-result *= 5; // result = result * 5
-result /= 5; // result = result / 5
+// result += 5; // result = result + 5
+// result -= 5; // result = result - 5
+// result *= 5; // result = result * 5
+// result /= 5; // result = result / 5
+
+
+// String operators
+console.log('Jed' + 'Llorente');
