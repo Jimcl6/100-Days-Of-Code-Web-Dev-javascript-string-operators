@@ -64,6 +64,7 @@ function calculateAdultYears(userAge) {
 
 adultYears = calculateAdultYears(age);
 
+
 let person = {
     name: "Jed",
     greet() {
@@ -72,6 +73,10 @@ let person = {
 }
 
 person.greet();
+
+// ---------------- console.log() method----------------
+// console.log():
+// ---------------- console.log() method----------------
 
 // -------------------------------------------------------------------------
 // Self code exercise section.
@@ -85,5 +90,8 @@ alert(`My hobbies are : ${hobbies[0]}, ${hobbies[1]}, ${hobbies[2]}`);
 alert(`I am currently working as a ${job.title} in ${job.place}, and I make ${job.salary} a month.`);
 
 alert(`I have lived ${adultYears} adult years.`);
+console.log(adultYears);
+console.log(`Hello world!`);
+
 // end of self code exercise section.
 // -------------------------------------------------------------------------
