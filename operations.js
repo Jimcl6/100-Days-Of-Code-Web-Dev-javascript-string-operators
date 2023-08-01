@@ -11,6 +11,15 @@ console.log(10 % 4); //modulus / modulo operator : - this will always give us th
 
 // Math Rules.
 
+// Javascript follow the standard math rules (P.E.M.D.A.S)
+// P :- Parenthesis
+// E :- Exponent
+// M :- Multiplication
+// D :- Division
+// A :- Addition
+// S :- Subtraction
+// above math rule is organized according to it's top priority.
+
 // Incrementation
 // let result = (10 + 3 - 5) * 10;
 // result++; //result = result + 1;
@@ -27,3 +36,4 @@ console.log(10 % 4); //modulus / modulo operator : - this will always give us th
 
 // String operators
 console.log('Jed' + 'Llorente');
+console.log('Jed' - 'Llorente');
